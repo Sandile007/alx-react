@@ -1,0 +1,25 @@
+:root {
+  --app-boder-size: 3px;
+  --app-primary-color: rgb(194, 79, 79);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
